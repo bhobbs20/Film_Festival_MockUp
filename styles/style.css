@@ -1,0 +1,138 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.navbar {
+    background-color: #1d5490;
+    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    height: 70px;
+}
+
+#intro {
+    background: url("../images/outdoor_film.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.display-4 {
+    color: #fff;
+}
+
+.intro {
+    margin-top: 120px;
+    color: #fff;
+}
+
+.fa-user-plus {
+    padding-left: 10px;
+}
+
+.carousel-example-1z {
+    border-color: rgba(4, 176, 197, 1);
+    -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+}
+
+.rgba-black-strong {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.hero-btn {
+    color: #fff;
+    background-color: #1d5490;
+    border-color: #1d5490;
+}
+
+.hero-section-titles {
+    color: #1d5490;
+    padding-top: 40px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.hero-lead {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #0e0e0e;
+}
+
+.icon-span {
+    background-color: #5a8cc3;
+    padding: 15px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    border: solid 1px #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.span-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.service-title {
+    margin-top: 15px;
+}
+
+.dark-blue-title {
+    color: #1d5490;
+}
+
+.lite-blue-title {
+    color: #5a8cc3;
+}
+
+a {
+    color: #5a8cc3;
+}
+
+.pre-reg-btn {
+    background-color: #5a8cc3;
+    border-color: #1d5490;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+}
+
+.pre-reg-btn:hover {
+    border-color: #1d5490;
+    background-color: #fff;
+}
+
+.movie-row {
+    margin-top: 50px;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #1d5490;
+    color: #fff;
+    height: 80px;
+}

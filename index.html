@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brooklyn Outdoor Film Festival</title>
     <link rel="stylesheet" href="bootstrap-4.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -14,34 +15,208 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+    <!--Main Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">Brooklyn Outdoor Film Festival</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-        <a class="navbar-brand" href="#">Navbar</a>
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#information">Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anounncements">Announcements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Sponsors
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Brookylns News</a>
+                                <a class="dropdown-item" href="#">Brooklyn Bridge Park</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Mask-->
+        <div id="intro" class="view">
+            <div class="mask rgba-black-strong">
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                    <div class="row d-flex justify-content-center text-center intro">
+                        <div class="col-md-10">
+                            <h2 class="display-4 font-weight-bold pt-5 ">Brooklyn Outdoor Film Festival</h2>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+                            <hr class="hr-light">
+
+                            <p class="white-text my-4">Come join us and enjoy FREE films for all ages!</p>
+                            <p class="white-text my-4">August 4th through 8th!!</p>
+                            <a href="#contact" class="btn btn-primary hero-btn">Pre-Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <div class="container">
-        <h1 class="text-center">Welcome</h1>
-    </div>
+    </header>
+    <!--Main layout-->
+    <main class="mt-5 ">
+        <div class="container " id="about">
+            <section>
+                <h2 class="mb-5 hero-section-titles text-center ">About Film Festival</h2>
+                <div class="row ">
+                    <div class="col-md-6 mb-4 ">
+                        <div id="carousel-example-1z " class="carousel slide carousel-fade " data-ride="carousel ">
+                            <ol class="carousel-indicators ">
+                                <li data-target="#carousel-example-1z " data-slide-to="0 " class="active "></li>
+                                <li data-target="#carousel-example-1z " data-slide-to="1 "></li>
+                                <li data-target="#carousel-example-1z " data-slide-to="2 "></li>
+                            </ol>
+                            <div class="carousel-inner z-depth-1-half " role="listbox ">
+                                <div class="carousel-item active ">
+                                    <img class="d-block w-100 " src="https://mdbootstrap.com/img/Photos/Others/images/84.jpg " alt="First slide ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img class="d-block w-100 " src="https://mdbootstrap.com/img/Photos/Others/images/85.jpg " alt="Second slide ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img class="d-block w-100 " src="https://mdbootstrap.com/img/Photos/Others/images/86.jpg " alt="Third slide ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <a href=" " class="">
+                            <h6 class="pb-1 ">
+                                <i class="fa fa-video-camera " aria-hidden="true "></i>
+                                <strong class="dark-blue-title "> Brooklyn Outdoor Film Festival </strong>
+                            </h6>
+                        </a>
+                        <h4 class="mb-3 ">
+                            <strong class="lite-blue-title ">A little about the Festival</strong>
+                        </h4>
+                        <p>The Brooklyn Outdoor Film Festival will be showing movies at the Brooklyn Bridge Park from Agust 5th- 8th. The movies are free and are suitable for all ages!</p>
+                        <p>The Brooklyn Bridge Park can only hold up to 5000 people per show. Please Pre-Register to assure your spot for each show. Pre-Registration will be open to the day of each show or a show is sold-out.</p>
+                        <a class="btn btn-outline-primary btn-md pre-reg-btn ">Pre-Register</a>
+                    </div>
+                </div>
+            </section>
 
+            <hr class="my-5 ">
+
+            <section>
+                <div class="container-fluid" id="information">
+                    <h2 class="hero-section-titles "> Film Festival Information</h2>
+                    <p class=" hero-lead lite-blue-title">Important details regarding Film Festival</p>
+                    <div class="row justify-center ">
+                        <div class="col-md-3 text-center text-md-right ">
+                            <div class="col col-feature col-space ">
+                                <span class="icon-span "><em class="fa fa-calendar span-icon "></em></span>
+                                <h4 class="service-title dark-blue-title ">Film Festival Dates</h4>
+                                <p class="lite-blue-title">August 5th - 8th</p>
+                            </div>
+                            <div class="col col-feauture col-space">
+                                <span class="icon-span "><em class="fa fa-hourglass span-icon"></em></span>
+                                <h4 class="service-title dark-blue-title">Film Festival Time</h4>
+                                <p class="lite-blue-title">6pm - midnight each night</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center ">
+                            <img src="images/photo_two_p.jpg " alt=" " class="services-image img-fluid ">
+                        </div>
+                        <div class="col-md-3 text-center text-md-left ">
+                            <div class="col col-feature col-space">
+                                <span class="icon-span "><em class="fa fa-map-marker span-icon "></em></span>
+                                <h4 class="service-title dark-blue-title ">Location</h4>
+                                <p class="lite-blue-title">Brooklyn Bridge Park</p>
+                            </div>
+                            <div class="col col-feature col-space">
+                                <span class="icon-span "><em class="fa fa-users span-icon "></em></span>
+                                <h4 class="service-title dark-blue-title ">Crowd Control</h4>
+                                <p class="lite-blue-title">Due to the Brooklyn Bridge Parks size, only 5000 people for each movie showing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-5 ">
+
+            <section class="container-fluid" id="anounncements">
+                <h2 class="hero-section-titles text-center ">Announcements</h2>
+                <div class="row movie-row ">
+                    <div class="col-md-8 ">
+                        <div class="card col-md-8 font-italic border-bottom">
+                            <img class=" card-img-top img-fluid " src="images/gonnies.jpg" alt="Card image cap ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">The Goonies</h5>
+                                <p class="card-text ">When two brothers find out they might lose their house they are desperate to find a way to keep their home. They find a treasure map and bring some friends along to find it. They are all out looking for the "X" and trying
+                                    to get away from a group of bad guys who also want the treasure.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-8 font-italic border-bottom">
+                            <img class=" card-img-top img-fluid " src="images/troll_image.jpg" alt="Card image cap ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">Trolls</h5>
+                                <p class="card-text ">After the Bergens invade Troll Village, Poppy (Anna Kendrick), the happiest Troll ever born, and the overly-cautious, curmudgeonly Branch (Justin Timberlake) set off on a journey to rescue her friends. Their mission is
+                                    full of adventure and mishaps, as this mismatched duo try to tolerate each other long enough to get the job done.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="col-md-4 blog-sidebar ">
+                        <div class="p-3 mb-3 bg-light rounded ">
+                            <h4 class="font-italic ">News</h4>
+                            <p class="mb-0 ">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        </div>
+
+                        <div class="p-3 mb-3 bg-light rounded ">
+                            <h4 class="font-italic ">Anouncements</h4>
+                            <p class="mb-0 ">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <hr class="my-5 ">
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-center">Brooklyn Outdoor Film Festival</h5>
+                </div>
+            </div>
+    </footer>
+
+    <!-- JS for carousel-->
+    <script>
+        $('.carousel').carousel({
+            interval: 3000,
+        })
+    </script>
 
 </body>
 
