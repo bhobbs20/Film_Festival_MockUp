@@ -131,8 +131,16 @@ a {
     height: 100%;
 }
 
+.form-group {
+    padding: 5px;
+}
+
 footer {
     background-color: #1d5490;
     color: #fff;
-    height: 80px;
+    height: 110px;
+}
+
+.nav-flex-icons {
+    position: relative;
 }
