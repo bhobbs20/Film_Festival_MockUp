@@ -12,6 +12,24 @@ header,
     height: 70px;
 }
 
+.navbar-brand {
+    color: #fff;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-brand {
+        text-align: center;
+    }
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
 #intro {
     background: url("../images/outdoor_film.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -25,7 +43,7 @@ header,
 }
 
 .intro {
-    margin-top: 120px;
+    margin-top: 100px;
     color: #fff;
 }
 
@@ -59,7 +77,7 @@ header,
 
 .hero-section-titles {
     color: #1d5490;
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 35px;
     letter-spacing: 2px;
     text-align: center;
@@ -143,4 +161,77 @@ footer {
 
 .nav-flex-icons {
     position: relative;
+}
+
+
+/* .nav-item:hover {
+    color: #fff;
+    border-bottom: 2px solid #5a8cc3;
+}
+
+.nav-item:active {
+    color: #fff;
+    border-bottom: 2px solid #5a8cc3;
+} */
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #5a8cc3;
+    border-bottom: 2px solid #5a8cc3;
+}
+
+.dropdown-menu {
+    margin: 10px;
+    background-color: #1d5490;
+    color: #fff;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #5a8cc3;
+    border-bottom: 2px solid #5a8cc3;
+    border-bottom-width: 80%;
+    background-color: #1d5490;
+}
+
+.reg-btn {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 2px solid #1d5490;
+    color: #fff;
+    margin: 10px;
+}
+
+.reg-btn:hover {
+    background-color: #5a8cc3;
+    border: 2px solid #1d5490;
+}
+
+.form-group {
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px #5a8cc3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.reg-row {
+    display: inline;
+}
+
+.form-group {
+    width: 100%;
+    margin: 5px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: #5a8cc3;
 }
