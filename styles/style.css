@@ -14,7 +14,7 @@ header,
 
 .navbar-brand {
     color: #fff;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 400px) {
@@ -71,7 +71,7 @@ header,
 
 .hero-section-titles {
     color: #1d5490;
-    padding-top: 75px;
+    padding-top: 40px;
     padding-bottom: 20px;
     font-size: 35px;
     letter-spacing: 2px;
@@ -257,6 +257,8 @@ a {
     border-radius: .375rem;
     margin-top: 15px;
     margin-bottom: 15px;
+    overflow: scroll;
+    height: 300px;
 }
 
 .card-img-top {
@@ -323,4 +325,42 @@ footer {
 .footer-row {
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.info-row {
+    padding-top: 20px;
+}
+
+blockquote {
+    background-color: #8080801f;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 5px;
+    -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+}
+
+.quote-p {
+    margin: 10px;
+    padding: 5px;
+}
+
+.admin {
+    margin: 10px;
+    padding: 10px;
+}
+
+.quote-span {
+    color: #1d5490;
+    font-size: .85rem;
+}
+
+.side-title {
+    color: #1d5490;
+    padding: 10px 0 10px 0;
 }
