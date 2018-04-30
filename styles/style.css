@@ -5,6 +5,18 @@ header,
     height: 100%;
 }
 
+section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+a {
+    color: #5a8cc3;
+}
+
+
+/*** MAIN NAVIGATION ***/
+
 .navbar {
     background-color: #1d5490;
     -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
@@ -17,6 +29,14 @@ header,
     padding-left: 10px;
 }
 
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #5a8cc3;
+}
+
 @media screen and (max-width: 400px) {
     .navbar-toggler {
         display: none;
@@ -26,9 +46,11 @@ header,
     }
 }
 
-.navbar-brand:hover {
-    color: #fff;
-}
+
+/*** END MAIN NAVIGATION ***/
+
+
+/*** HERO ***/
 
 #intro {
     background: url("../images/outdoor_film.jpg")no-repeat center center fixed;
@@ -38,12 +60,20 @@ header,
     background-size: cover;
 }
 
-.display-4 {
-    color: #fff;
+.mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
 }
 
 .intro {
     margin-top: 100px;
+    color: #fff;
+}
+
+.display-4 {
     color: #fff;
 }
 
@@ -55,21 +85,13 @@ header,
     background-color: rgba(0, 0, 0, .7);
 }
 
-.mask {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-}
-
 .hero-btn {
     color: #fff;
     background-color: #1d5490;
     border-color: #1d5490;
 }
 
-.hero-section-titles {
+.section-titles {
     color: #1d5490;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -86,6 +108,46 @@ header,
     color: #0e0e0e;
 }
 
+.service-title {
+    margin-top: 15px;
+}
+
+.form-group {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+
+/*** END OF HERO ***/
+
+
+/*** ABOUT ***/
+
+.carousel {
+    -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+    border-radius: .375rem;
+}
+
+.dark-blue-title {
+    color: #1d5490;
+}
+
+.lite-blue-title {
+    color: #5a8cc3;
+}
+
+
+/*** END ABOUT ***/
+
+
+/*** INFORMATION ***/
+
 .icon-span {
     background-color: #5a8cc3;
     padding: 15px;
@@ -99,39 +161,20 @@ header,
 .span-icon {
     font-size: 20px;
     color: #fff;
+    padding-top: 15px;
 }
 
-.service-title {
-    margin-top: 15px;
+@media screen and (max-width: 768px) {
+    .span-icon {
+        padding-top: 25px;
+    }
 }
 
-.dark-blue-title {
-    color: #1d5490;
-}
 
-.lite-blue-title {
-    color: #5a8cc3;
-}
+/*** END INFORMATION ***/
 
-a {
-    color: #5a8cc3;
-}
 
-.pre-reg-btn {
-    background-color: #5a8cc3;
-    border-color: #1d5490;
-    color: #fff;
-    height: 40px;
-    width: 150px;
-    -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
-    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
-    border-radius: .375rem;
-}
-
-.pre-reg-btn:hover {
-    border-color: #1d5490;
-    background-color: #fff;
-}
+/*** ANOUNCMENTS ***/
 
 .movie-row {
     margin-top: 50px;
@@ -147,16 +190,9 @@ a {
     height: 100%;
 }
 
-.form-group {
-    padding: 5px;
-}
-
 .nav-flex-icons {
     position: relative;
 }
-
-
-/***** Footer *****/
 
 .nav-link {
     color: #fff;
@@ -207,25 +243,6 @@ a {
     display: inline;
 }
 
-.form-group {
-    width: 100%;
-    margin: 5px;
-}
-
-.form-control {
-    width: 100%;
-}
-
-.navbar-toggler {
-    background-color: #5a8cc3;
-}
-
-.carousel {
-    -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
-    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
-    border-radius: .375rem;
-}
-
 .services-image {
     -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
     box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
@@ -238,16 +255,8 @@ a {
     border-radius: .375rem;
 }
 
-.span-icon {
-    font-size: 20px;
-    color: #fff;
-    padding-top: 15px;
-}
-
-@media screen and (max-width: 768px) {
-    .span-icon {
-        padding-top: 25px;
-    }
+.card-img-top {
+    padding-top: 12px;
 }
 
 .side-box {
@@ -261,9 +270,11 @@ a {
     height: 300px;
 }
 
-.card-img-top {
-    padding-top: 12px;
-}
+
+/*** END ANNOUNCMENTS ***/
+
+
+/*** FOOTER ***/
 
 footer {
     background-color: #1d5490;
@@ -302,15 +313,15 @@ footer {
     border-bottom: none;
 }
 
+.social-footer-nav {
+    display: flex;
+    flex-direction: row;
+}
+
 .footer-social-icon {
     color: #fff;
     margin-right: 10px;
     margin-left: 10px;
-}
-
-.social-footer-nav {
-    display: flex;
-    flex-direction: row;
 }
 
 .footer-social-icon:hover {
@@ -327,11 +338,6 @@ footer {
     padding-bottom: 10px;
 }
 
-section {
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
-
 .info-row {
     padding-top: 20px;
 }
@@ -343,6 +349,11 @@ blockquote {
     padding: 5px;
     -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
     box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+}
+
+.side-title {
+    color: #1d5490;
+    padding: 10px 0 10px 0;
 }
 
 .quote-p {
@@ -360,7 +371,5 @@ blockquote {
     font-size: .85rem;
 }
 
-.side-title {
-    color: #1d5490;
-    padding: 10px 0 10px 0;
-}
+
+/*** END FOOTER ***/
